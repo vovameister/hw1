@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     var value = 0
     override func viewDidLoad() {
         super.viewDidLoad()
+        label.textAlignment = .center
+        label.font = UIFont.systemFont(ofSize: 40)
         label.text = "0"
     }
     @IBAction func PressMinus(_ sender: Any) {
