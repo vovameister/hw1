@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74O-oX-chk">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74O-oX-chk">
                                 <rect key="frame" x="48" y="600" width="114" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
@@ -27,9 +26,8 @@
                                     <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="73"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="348-b5-cv6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="348-b5-cv6">
                                 <rect key="frame" x="232" y="600" width="114" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
@@ -37,22 +35,24 @@
                                     <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="50"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgK-DT-YxG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgK-DT-YxG">
                                 <rect key="frame" x="232" y="600" width="114" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <color key="tintColor" systemColor="labelColor"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="MeL-Ch-Ox9"/>
+                                    <constraint firstAttribute="height" constant="69" id="tF8-2I-xHE"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="+">
-                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="50"/>
+                                    <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="150"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="PressPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bWG-kz-dcW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIs-Fn-xlX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIs-Fn-xlX">
                                 <rect key="frame" x="48" y="600" width="114" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
@@ -64,33 +64,82 @@
                                     <action selector="PressMinus:" destination="BYZ-38-t0r" eventType="touchDown" id="ahl-Wb-0hP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kr-nt-enW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kr-nt-enW">
                                 <rect key="frame" x="48" y="600" width="114" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="AccentColor"/>
-                                <color key="tintColor" systemColor="labelColor"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="-">
-                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="73"/>
+                                    <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="150"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="PressMinus:" destination="BYZ-38-t0r" eventType="touchDown" id="jU7-G9-sW9"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnv-wb-U6Y">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnv-wb-U6Y">
                                 <rect key="frame" x="133" y="148" width="126" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRm-7q-dLe">
+                                <rect key="frame" x="134.33333333333334" y="719" width="124.66666666666666" height="68.333333333333371"/>
+                                <color key="backgroundColor" red="0.84313131502601046" green="0.72772802761240374" blue="0.66167762025917554" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Refresh" subtitle="">
+                                    <fontDescription key="titleFontDescription" name="KhmerSangamMN" family="Khmer Sangam MN" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="RefreshLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hl2-hD-t7U"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gf6-hH-tSC">
+                                <rect key="frame" x="54" y="304" width="285" height="259"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="259" id="OMH-fC-VD8"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="tgK-DT-YxG" firstAttribute="leading" secondItem="348-b5-cv6" secondAttribute="leading" id="2LK-MD-3Q9"/>
+                            <constraint firstItem="tgK-DT-YxG" firstAttribute="bottom" secondItem="zIs-Fn-xlX" secondAttribute="bottom" id="864-qt-ZWx"/>
+                            <constraint firstItem="gf6-hH-tSC" firstAttribute="centerX" secondItem="bnv-wb-U6Y" secondAttribute="centerX" id="8T1-PG-0vi"/>
+                            <constraint firstItem="tgK-DT-YxG" firstAttribute="firstBaseline" secondItem="8kr-nt-enW" secondAttribute="firstBaseline" id="DQK-ck-BkF"/>
+                            <constraint firstItem="74O-oX-chk" firstAttribute="top" secondItem="gf6-hH-tSC" secondAttribute="bottom" constant="37" id="EEI-L2-MZH"/>
+                            <constraint firstItem="8kr-nt-enW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="FIA-nu-0am"/>
+                            <constraint firstItem="gf6-hH-tSC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="Qwq-dQ-Rne"/>
+                            <constraint firstItem="8kr-nt-enW" firstAttribute="trailing" secondItem="74O-oX-chk" secondAttribute="trailing" id="SxI-VX-S4f"/>
+                            <constraint firstItem="8kr-nt-enW" firstAttribute="leading" secondItem="74O-oX-chk" secondAttribute="leading" id="U8F-W1-LzE"/>
+                            <constraint firstItem="8kr-nt-enW" firstAttribute="trailing" secondItem="zIs-Fn-xlX" secondAttribute="trailing" id="Wg0-vX-Ubm"/>
+                            <constraint firstItem="tgK-DT-YxG" firstAttribute="leading" secondItem="74O-oX-chk" secondAttribute="trailing" constant="70" id="Zzl-l9-H05"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tgK-DT-YxG" secondAttribute="trailing" constant="47" id="a7n-NQ-Lh7"/>
+                            <constraint firstItem="gf6-hH-tSC" firstAttribute="centerX" secondItem="QRm-7q-dLe" secondAttribute="centerX" id="cWf-Uy-PBr"/>
+                            <constraint firstItem="tgK-DT-YxG" firstAttribute="baseline" secondItem="8kr-nt-enW" secondAttribute="baseline" id="cfE-oT-XW6"/>
+                            <constraint firstItem="gf6-hH-tSC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dFD-uJ-Reh"/>
+                            <constraint firstItem="tgK-DT-YxG" firstAttribute="top" secondItem="348-b5-cv6" secondAttribute="top" id="kry-NG-Ogo"/>
+                            <constraint firstItem="tgK-DT-YxG" firstAttribute="bottom" secondItem="348-b5-cv6" secondAttribute="bottom" id="oa1-Y3-iPm"/>
+                            <constraint firstItem="tgK-DT-YxG" firstAttribute="trailing" secondItem="348-b5-cv6" secondAttribute="trailing" id="pZn-M4-ZOL"/>
+                            <constraint firstItem="8kr-nt-enW" firstAttribute="leading" secondItem="zIs-Fn-xlX" secondAttribute="leading" id="pdI-aM-CTd"/>
+                            <constraint firstItem="tgK-DT-YxG" firstAttribute="top" secondItem="zIs-Fn-xlX" secondAttribute="top" id="pvx-CB-GFl"/>
+                            <constraint firstItem="gf6-hH-tSC" firstAttribute="top" secondItem="bnv-wb-U6Y" secondAttribute="bottom" constant="81" id="rQx-BU-Omy"/>
+                            <constraint firstItem="tgK-DT-YxG" firstAttribute="top" secondItem="74O-oX-chk" secondAttribute="top" id="tMl-H2-fxQ"/>
+                            <constraint firstItem="QRm-7q-dLe" firstAttribute="top" secondItem="tgK-DT-YxG" secondAttribute="bottom" constant="50" id="tWa-MJ-xo0"/>
+                            <constraint firstItem="gf6-hH-tSC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="304" id="taH-ZB-hfY"/>
+                            <constraint firstItem="tgK-DT-YxG" firstAttribute="bottom" secondItem="74O-oX-chk" secondAttribute="bottom" id="xYH-CA-Xnp"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="Refresh" destination="QRm-7q-dLe" id="V9y-el-epH"/>
                         <outlet property="label" destination="bnv-wb-U6Y" id="j9M-uB-JfH"/>
                         <outlet property="minus" destination="8kr-nt-enW" id="MiL-HX-R0V"/>
                         <outlet property="pluss" destination="tgK-DT-YxG" id="K2N-dc-W2v"/>
+                        <outlet property="textView" destination="gf6-hH-tSC" id="Uac-0R-5na"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -104,6 +153,12 @@
         </namedColor>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
